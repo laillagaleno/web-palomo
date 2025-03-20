@@ -194,14 +194,15 @@
   [hidden]:where(:not([hidden="until-found"])) {
     display: none !important;
   }
-
-
 }
 @layer utilities {
+  .back{
+    background: no-repeat linear-gradient(0deg, transparent 70%, #14bbc124);
+    background-size:cover;
+  }
   .absolute {
     position: absolute;
   }
-
   .relative {
     position: relative;
   }
